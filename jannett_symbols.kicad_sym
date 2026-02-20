@@ -33922,7 +33922,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "ESP32 Dev Board"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33930,7 +33930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jarrett_Footprint_Library:ESP32_MODULE"
+		(property "Footprint" "jannett_footprints:ESP32_MODULE"
 			(at 0 0 0)
 			(effects
 				(font
