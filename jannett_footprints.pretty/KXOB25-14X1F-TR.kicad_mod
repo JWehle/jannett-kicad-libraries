@@ -1,0 +1,137 @@
+(footprint "KXOB25-14X1F-TR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "23mm x 8mm")
+	(tags "solar cell")
+	(property "Reference" "SC1"
+		(at 0.07 -4.69 0)
+		(layer "F.SilkS")
+		(uuid "674bcd92-9612-4da7-8157-789272dcd22f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KXOB25-14X1F-TR"
+		(at 0 2.63 0)
+		(layer "F.Fab")
+		(uuid "71b4782a-a1a5-47d9-8dec-adad71575467")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cf58ac9-8eb3-4308-866b-6749b3199071")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single solar cell"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3281b6ed-1cf9-4fb7-96ad-4d2e64aa30cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "solar-curve-tracer.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.317064 4.14)
+		(end 8.87 4.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f49d534-d393-4ce7-9f09-0b60312bfeea")
+	)
+	(fp_line
+		(start -9.147064 -4.09)
+		(end 9.04 -4.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2437bc24-7976-4eaf-9056-9f50f52567cd")
+	)
+	(fp_rect
+		(start -12 -4.5)
+		(end 12 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "713c5f6d-6733-496a-bb1d-55abead9270a")
+	)
+	(fp_rect
+		(start -11.5 -4)
+		(end 11.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d8398aae-efdb-4398-ac03-230302229b43")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2d5242c1-ea66-4f0e-a018-14969a7f2a64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -11.5 0)
+		(size 4 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.204082)
+		(uuid "0351e092-32be-4694-a691-6e9ece424d43")
+	)
+	(pad "2" smd roundrect
+		(at 11.5 0)
+		(size 4 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.204082)
+		(uuid "cdd2a7aa-578f-4826-80b9-e1e330292275")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
